@@ -38,7 +38,7 @@ import numpy
 import os.path
 
 
-from cura.CuraVersion import CuraVersion  # type: ignore
+from cura.ApplicationMetadata import CuraVersion # from cura.CuraVersion import CuraVersion  # type: ignore
 from cura.CuraApplication import CuraApplication
 from cura.Operations.SetParentOperation import SetParentOperation
 from cura.PickingPass import PickingPass
